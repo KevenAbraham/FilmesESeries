@@ -1,0 +1,41 @@
+<style type='text/css'>
+
+p {margin-top: 3cm;}
+
+h1 {font-family: Arial;
+   font-style: normal;
+   color: #305574;
+   font-weight: bold;
+   font-size: 50px;}
+   
+h2 {font-family: arial;
+   font-style: normal;
+   color: black;
+   font-weight: bold;
+   font-size: 40px;}
+   
+h3 {font-family: arial;
+   font-style: normal;
+   color: black;
+   font-weight: bold;
+   font-size: 30px;}
+   
+th {font-family: arial;
+	font-style: bold;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;}
+	
+td {font-family: arial;
+	font-style: normal;
+	color: black;
+	font-weight: normal;
+	font-size: 15px;}
+	
+#nota {font-family: arial;
+	font-style: bold;
+	color: red;
+	font-weight: bold;
+	font-size: 15px;}
+	
+</style>

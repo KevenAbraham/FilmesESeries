@@ -1,0 +1,112 @@
+<html>
+<head>
+	<Title>Cadastro</title>
+</head>
+<style>
+	@import url("../css/cadastro.css");
+</style>
+
+<script Language="JavaScript">
+function Login() {
+	var nome = document.frm_login.txt_nome.value;
+	var age = document.frm_login.txt_idade.value;
+	var email = document.frm_login.txt_usuario.value;
+	var pass = document.frm_login.txt_senha.value;
+	
+	if ((nome == "" || email == "") && pass == "") {
+		alert("Ops! Parece que voce esqueceu de algo!");
+		document.frm_login.txt_nome.focus();
+	} else {
+		alert(`Muito bem! Iremos te alocar para o site, ${nome}`);
+		window.open("mesclado-teste.html"); 
+	}
+}
+</script>
+
+<body bgcolor="white"> 
+
+<div class="centro">
+<form name="frm_login">
+<p>
+<img align=left width="200px" height="200px" src="../imagens\ironman-cadastro-gif.gif"><img align=right width="200px" height="200px" src="../imagens\superman-cadastro-gif.gif">
+
+<center>
+<h2><u>Cadastre-se</u></h2>
+</center>
+<fieldset id="dados">
+   <legend class="dados">Dados Pessoais</legend>
+	<h3>Nome:<br>
+		<input type="text" name="txt_nome" size="60" maxlength="60" required='yes'>
+		<p>
+	<h3>Idade:
+		<input type="number" name="txt_idade" min="10" max="100" required='yes'> &nbsp;&nbsp;
+	<h3>Sexo:
+		<input type="radio" name="sexo">Masculino
+		<input type="radio" name="sexo">Feminino
+		<input type="radio" name="sexo">Outro
+		<p>
+	<h3>E-mail:<br>
+		<input id="caixa" type="text" name="txt_usuario" size="60" maxlength="60" required='yes'><p>
+	Senha:<br>
+		<input id="caixa" type="password" name="txt_senha" size="60" maxlength="60" required='yes'><p>	
+</fieldset>
+<p>
+<h1><u>Preferencias</u></h1>
+	<fieldset id="marvel">
+	<legend class="marvel">Marvel</legend>
+	<ul>
+		<input type="checkbox" name="filme">Capitao America: O Primeiro Vingador<br>
+		<input type="checkbox" name="filme">Capita Marvel<br>
+		<input type="checkbox" name="filme">Homem de Ferro<br>
+		<input type="checkbox" name="filme">O Incrivel Hulk<br>
+		<input type="checkbox" name="filme">Homem de Ferro 2<br>
+		<input type="checkbox" name="filme">Thor<br>
+		<input type="checkbox" name="filme">Os Vingadores<br>
+		<input type="checkbox" name="filme">Homem de Ferro 3<br>
+		<input type="checkbox" name="filme">Thor: O Mundo Sombrio<br>
+		<input type="checkbox" name="filme">Capitao America: O Soldado Invernal<br>
+		<input type="checkbox" name="filme">Guardioes da Galaxia<br>
+		<input type="checkbox" name="filme">Guardioes da Galaxia Vol. 2<br>
+		<input type="checkbox" name="filme">Vingadores: Era de Ultron<br>
+		<input type="checkbox" name="filme">Homem-Formiga<br>
+		<input type="checkbox" name="filme">Capitao America: Guerra Civil<br>
+		<input type="checkbox" name="filme">Viuva Negra<br>
+		<input type="checkbox" name="filme">Pantera Negra<br>
+		<input type="checkbox" name="filme">Homem-Aranha: De Volta ao Lar<br>
+		<input type="checkbox" name="filme">Doutor Estranho<br>
+		<input type="checkbox" name="filme">Thor: Ragnarok<br>
+		<input type="checkbox" name="filme">Homem-Formiga e a Vespa<br>
+		<input type="checkbox" name="filme">Vingadores: Guerra Infinita<br>
+		<input type="checkbox" name="filme">Vingadores: Ultimato<br>
+		<input type="checkbox" name="filme">Loki<br>
+		<input type="checkbox" name="filme">What If...?<br>
+		<input type="checkbox" name="filme">WandaVision<br>
+		<input type="checkbox" name="filme">Falcao e Soldado Invernal<br>
+		<input type="checkbox" name="filme">Shang-Chi<br>
+		<input type="checkbox" name="filme">Eternos<br>
+		<input type="checkbox" name="filme">Homem-Aranha: Longe de Casa<br>
+		<input type="checkbox" name="filme">Homem-Aranha: Sem Volta para Casa<br>
+		<input type="checkbox" name="filme">Gaviao Arqueiro<br>
+	</ul>
+</fieldset>
+<br>
+<fieldset id="dc">
+	<legend class="dc">DC Comics</legend>
+	<ul>
+		<input type="checkbox" name="filme">Mulher Maravilha<br>
+		<input type="checkbox" name="filme">Mulher Maravilha 1984<br>
+		<input type="checkbox" name="filme">Homem de Aco<br>
+		<input type="checkbox" name="filme">Batman vs Superman: A Origem da Jutica<br>
+		<input type="checkbox" name="filme">Esquadrao Suicida<br>
+		<input type="checkbox" name="filme">Liga da Justica<br>
+		<input type="checkbox" name="filme">Liga da Justica (Zack Snyder)<br>
+		<input type="checkbox" name="filme">Aquaman<br>
+		<input type="checkbox" name="filme">Shazam!<br>
+		<input type="checkbox" name="filme">Aves de Rapina<br>		
+		<input type="checkbox" name="filme">O Esquadrao Suicida<br>
+	</ul>
+</fieldset>
+<p>
+<p>
+<center><input id="botao" type="button" name="btn_login" value="ENTRAR" onClick="Login()">&nbsp;&nbsp;
+<input id="botao" type="reset" name="btn_limpar" value="LIMPAR" onClick="Limpar()">

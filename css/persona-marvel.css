@@ -1,0 +1,38 @@
+<style type='text/css'>
+
+p {margin-top: 3cm;}
+
+h1 {font-family: arial;
+   font-style: bold;
+   color: white;
+   text-align: center;
+   font-weight: bold;
+   font-size: 35px;}
+   
+a:link {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: lightgrey;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a:active {
+	color: grey;
+	background-color: transparent;
+	text-decoration: none;
+
+}
+
+   
+</style>

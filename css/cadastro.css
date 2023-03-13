@@ -1,0 +1,83 @@
+<style type='text/css'>
+
+p {margin-top: 3cm;}
+
+#dados {
+	background-color: lightgrey;
+	color: black;
+}
+
+#dc {
+	font-family: arial;
+	font-style: normal;
+	font-weight: normal;
+	background-color: #799dbe;
+	color: black;
+}
+
+#marvel {
+	font-family: arial;
+	font-style: normal;
+	font-weight: normal;
+	background-color: #e96060;
+	color: black;
+}
+
+.dc {
+	font-family: arial;
+	font-style: bold;
+	background-color: #4b6c8a;
+	color: black;
+	font-weight: bold;
+	padding: 5px 100px;
+}
+
+.marvel {
+	background-color: #e64444;
+	color: black;
+	padding: 5px 100px;
+}
+
+.dados {
+	background-color: #999da1;
+	color: black;
+	padding: 5px 100px;
+}
+
+h1 {font-family: Arial;
+   font-style: normal;
+   color: black;
+   font-weight: bold;
+   font-size: 30px;}
+   
+h2 {font-family: arial;
+   font-style: normal;
+   color: black;
+   font-weight: bold;
+   font-size: 40px;}
+   
+h3 {font-family: arial;
+   font-style: normal;
+   color: black;
+   font-weight: bold;
+   font-size: 20px;}
+   
+th {font-family: arial;
+	font-style: bold;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;}
+	
+td {font-family: arial;
+	font-style: normal;
+	color: black;
+	font-weight: normal;
+	font-size: 15px;}
+	
+#nota {font-family: arial;
+	font-style: bold;
+	color: green;
+	font-weight: bold;
+	font-size: 15px;}
+	
+</style>

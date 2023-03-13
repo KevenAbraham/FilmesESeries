@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Tela de Login</title>
+
+<style type="text/css">
+ @import url("../css/loginfilme.css"); 
+</style>
+
+<script LANGUAGE="JavaScript"> 
+function Login() {
+	var user=document.frm_login.txt_usuario.value;
+	var email=document.frm_login.txt_usuario.value;
+	var pass=document.frm_login.txt_senha.value;
+	
+	if ((user=="" && email=="") || pass=="") {
+		alert("Ops! Parece que você se esqueceu de algo!");
+		document.frm_login.txt_usuario.focus();
+	} else {
+		alert(`Conta validada! Bem-vindo(a) ${user}!`);
+		window.open("../html/mesclado-teste.html")
+	}
+}
+
+</script>
+</head>
+
+<body bgcolor="#101417"> 
+
+<div class="centro_superior">
+<form name="frm_login">
+<p>
+<h1>Filmes e Séries</h1>
+   <center><h2>Acompanhe as notícias sobre seus filme e séries<br>preferidos:</h2>
+
+</div>
+<div class="centro">
+<h3> Usuário ou E-mail:<br>
+		<input id="caixa" type="text" name="txt_usuario" size="40" maxlength="40" required='yes'><p>
+		Senha:<br>
+		<input id="caixa" type="password" name="txt_senha" size="40" maxlength="15" required='yes'><p>
+		<input id="botao" type="button" name="btn_login" value="ENTRAR" onClick="Login()">
+		<a href='../html/cadastro.html'><input id="botao" type="button" name="btn_limpar" value="CADASTRE-SE" onClick="Cadastro()"></a>
+</form>
+</div>
+</body>
+</html>

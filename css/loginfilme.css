@@ -1,0 +1,86 @@
+<style type="text/css">
+ 
+ 
+p {margin-top: 3cm;}
+
+body {
+	color: white;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+}
+h1 {font-family: arial;
+   font-style: normal;
+   color: white;
+   text-align: center;
+   font-weight: bold;
+   font-size: 70px;}
+   
+h2 {font-family: Arial;
+   font-style: normal;
+   color: white;
+   font-weight: bold;
+   font-size: 25px;}
+  
+h3 {font-family: arial;
+   font-style: italic;
+   color: white;
+   text-align: center;
+   font-weight: bold;
+   font-size: 40px;}
+  
+   
+.centro_superior {
+    position: fixed;
+	height: 600px;
+	width: 600px;
+    top: 0px;
+    bottom: 400px;
+	left: 0px;
+	right: 0px;
+	margin:auto;
+	}
+  
+.centro {
+    position: fixed;
+	height: 600px;
+	width: 600px;
+    top: 300px;
+    bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin:auto;
+}
+	
+#caixa {background: #c7d0d7;
+             border-radius:0px; 
+             height:60px;
+             border: 2px solid;
+			 text-align: center;
+			 font-size:x-large;
+			 }
+		
+#caixa:focus {font-family: Arial;
+	         background: #c7d0d7;
+	         border: 1px solid;
+	         color: black;
+			 text-align: center;
+	         box-shadow: 0 0 30px black;}
+   
+#botao {height: 45px;
+        width: 250px; 
+	    background: white;
+	    color: black;
+	    font-style: arial;
+	    font-size: 30px;
+	    border: 2px solid;
+	    box-shadow: 0 0 6px;   /* sombra no objeto */
+	    border-radius: 10px; }
+
+#botao:hover  {font-size:32px; 
+               font-family: Arial; 
+               background: white;
+	           color: black;
+	           box-shadow: 0 0 30px black; }
+
+</style>
